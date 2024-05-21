@@ -1,0 +1,87 @@
+
+
+
+body{
+    background: url('https://images.pexels.com/photos/7412076/pexels-photo-7412076.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+   }
+
+   body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 100px;
+    padding: 0;
+    top:200px;
+    margin-left: 120px;
+   
+}
+
+#game {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color:#FFFFFF;
+    max-width: 500px;
+}
+
+#flag {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#btns {
+    margin-bottom: 20px;
+}
+
+.btns {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #1c2126;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btns:hover {
+    background-color: #0056b3;
+}
+
+#move {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #686f6a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#move:hover {
+    background-color: #839787;
+}
+
+.StartAgain {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.StartAgain:hover {
+    background-color: #e0a800;
+}
